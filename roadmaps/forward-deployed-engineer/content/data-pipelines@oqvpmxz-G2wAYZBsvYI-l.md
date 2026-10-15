@@ -1,3 +1,7 @@
 # Data Pipelines
 
 A data pipeline is a series of steps that move and transform data from one place to another, usually from source systems into a warehouse or processing layer. Pipelines can be batch-based (running on a schedule) or streaming (processing data in real time). Building reliable pipelines means handling failures, schema changes, and data quality issues, all of which are common realities in customer environments.
+
+Visit the following resources to learn more:
+
+- [@roadmap@Visit the Dedicated Data Engineer Roadmap](https://roadmap.sh/data-engineer)

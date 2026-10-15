@@ -1,3 +1,7 @@
 # Build your Agent
 
-You have learned the concepts. Now build one. Pick a real task, something you actually want automated, and build an agent that can do it: define the tools, write the orchestration logic, handle failures, and test it against inputs that are likely to break it. It does not matter if the first version is rough. Getting hands-on with a real agent exposes the gaps that no amount of reading covers, and what you learn from debugging a misbehaving agent is exactly the knowledge you will need when doing it inside a customer environment.
+Pick a real task, something you actually want automated, and build an agent that can do it. Define the tools, write the orchestration logic, add input validation, a max-step limit, and an audit trail that logs every prompt, tool call, and response with timestamps. Then test it against inputs likely to break it. Resist the urge to use AI at every step. Most of the work should be tool calls, with one LLM call doing the orchestration. The goal is not a polished demo. It is a system that handles failure gracefully and leaves a trace you can debug when something goes wrong in production.
+
+Visit the following resources to learn more:
+
+- [@roadmap@Visit the Dedicated AI Agents Roadmap](https://roadmap.sh/ai-agents)
